@@ -1,0 +1,81 @@
+* {
+  font-family: JetBrainsMono Nerd Font;
+  font-size: 13px;
+  border: none;
+  border-radius: 14px;
+  min-height: 0;
+}
+
+/* ❌ ПОВНІСТЮ прибираємо фон панелі */
+window#waybar {
+  background: transparent;
+  color: #eaeaea;
+}
+
+/* ===== LEFT ===== */
+#custom-clock {
+  padding: 6px 14px;
+  margin: 6px 4px 6px 6px;
+  background: rgba(40, 40, 40, 0.65);
+  border-radius: 12px;
+}
+
+#custom-vremya {
+  padding: 6px 14px;
+  margin: 6px 4px 6px 6px;
+  background: rgba(40, 40, 40, 0.65);
+  border-radius: 12px;
+}
+
+#taskbar {
+  padding: 6px 10px;
+  margin: 6px;
+  background: rgba(40, 40, 40, 0.65);
+}
+
+#taskbar button {
+  padding: 2px 6px;
+  margin: 0 2px;
+}
+
+/* ===== CENTER ===== */
+#workspaces button {
+  padding: 6px 12px;
+  margin: 6px;
+  background: rgba(30, 30, 30, 0.45);
+  color: #aaa;
+}
+
+#workspaces button.active {
+  background: rgba(120, 120, 255, 0.4);
+  color: #fff;
+}
+
+/* ===== RIGHT ===== */
+#pulseaudio {
+  padding: 6px 14px;
+  margin: 6px 4px 6px 6px;
+  background: rgba(40, 40, 40, 0.65);
+  border-radius: 12px;
+}
+
+#network {
+  padding: 6px 14px;
+  margin: 6px 4px 6px 6px;
+  background: rgba(40, 40, 40, 0.65);
+  border-radius: 12px;
+}
+
+#battery {
+  padding: 6px 14px;
+  margin: 6px 6px 6px 4px;
+  background: rgba(40, 40, 40, 0.65);
+  border-radius: 12px;
+}
+
+/* Tooltip (наведення) */
+tooltip {
+  background: rgba(20, 20, 20, 0.9);
+  border-radius: 12px;
+  padding: 10px;
+}
