@@ -55,7 +55,7 @@ window#waybar {
   margin: 0;
   background: transparent;
   color: #aaa;
-  border-radius: 0; /* за замовчуванням — прямокутні */
+  border-radius: 50px; /* за замовчуванням — прямокутні */
 }
 
 /* hover без зсувів */
@@ -76,11 +76,11 @@ window#waybar {
 }
 
 #workspaces button:first-child:not(:last-child) {
-  border-radius: 50px 0 0 50px;
+  border-radius: 50px;
 }
 
 #workspaces button:last-child:not(:first-child) {
-  border-radius: 0 50px 50px 0;
+  border-radius: 50px;
 }
 
 
