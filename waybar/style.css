@@ -58,20 +58,20 @@ window#waybar {
   padding: 6px 12px;
   margin: 0;
   background: transparent;
-  color: @outline;
+  color: @secondary;
   border-radius: 50px; /* за замовчуванням — прямокутні */
 }
 
 /* hover без зсувів */
 #workspaces button:hover {
-  background: rgba(0,0,0,0.5);
-  color: @on_secondary_fixed_variant;
+  background: alpha(@secondary, 0.5);
+  color: @outline;
 }
 
 /* активний workspace */
 #workspaces button.active {
-  background: rgba(0,0,0,0.5);
-  color: @secondary; 
+  background-color: alpha(@secondary, 0.85);
+  color: black; 
 }
 
 /* закруглення країв */

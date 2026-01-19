@@ -54,11 +54,22 @@
       "key": "memory "
     },
 
+    {
+      "type": "swap",
+      "key": "swap   "
+    },
+
+    {
+      "type": "disk",
+      "key": "storage",
+    },
+
     "break",
     {
       "type": "colors",
       "symbol": "circle"
     },
+
     "break"
   ]
 }
