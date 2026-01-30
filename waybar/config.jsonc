@@ -9,7 +9,7 @@
   "modules-left": [
     "custom/clock",
     "custom/vremya",
-    "wlr/taskbar"
+    "hyprland/language"
   ],
 
   "modules-center": [
@@ -37,13 +37,10 @@
 },
 
   // ===== TASKBAR =====
-  "wlr/taskbar": {
-    "format": "{icon}",
-    "icon-size": 18,
-    "spacing": 6,
-    "on-click": "activate",
-    "on-click-middle": "close",
-    "tooltip": true
+  "hyprland/language": {
+    "format": "{}",
+    "format-uk": "Ukrainian",
+    "format-en": "English",
   },
 
   // ===== WORKSPACES =====

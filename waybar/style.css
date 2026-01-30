@@ -31,16 +31,12 @@ window#waybar {
   border-radius: 50px;
 }
 
-#taskbar {
-  padding: 6px 10px;
-  margin: 6px;
+#language {
+  padding: 6px 14px;
+  margin: 6px 4px 6px 6px;
   background-color: rgba(0,0,0,0.5);
   color: @secondary;
-}
-
-#taskbar button {
-  padding: 2px 6px;
-  margin: 0 2px;
+  border-radius: 50px;
 }
 
 /* ===== CENTER ===== */
